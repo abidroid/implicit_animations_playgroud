@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:implicit_animations_playgroud/screens/medium_nemi_shah/animated_opacity_screen.dart';
+import 'package:implicit_animations_playgroud/screens/medium_nemi_shah/animated_search_field_screen.dart';
 import 'package:implicit_animations_playgroud/utility/utility.dart';
 
 class LandingScreen extends StatelessWidget {
@@ -34,7 +35,7 @@ class LandingScreen extends StatelessWidget {
                 subtitle: const Text('Nemi Shah - Animated Container and Opacity - Search Field'),
                 trailing: const Chip(label: Text('Medium')),
                 onTap: () {
-                  navigateTo(context: context, widget: const AnimatedOpacityScreen());
+                  navigateTo(context: context, widget: const AnimatedSearchFieldScreen());
                 },
               ),
             ),
